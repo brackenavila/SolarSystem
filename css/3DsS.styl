@@ -1,0 +1,59 @@
+body
+  overflow hidden
+  img
+    border-radius 60%
+    position relative
+    transition all 1s ease
+    z-index 1
+    cursor pointer
+
+::-webkit-scrollbar
+  background black
+
+::-webkit-scrollbar-thumb
+  background darkred
+  border-radius 10em 0 0 10em
+
+::-webkit-scrollbar-thumb:hover
+  background-image -webkit-radial-gradient(circle,red,darkred)
+  border-radius 10em
+
+::-webkit-scrollbar-corner
+  background black
+
+@-webkit-keyframes Sun
+    0%
+      box-shadow 0 0 30px 10px darkred
+    50%
+      box-shadow 0 0 10px 5px darkred
+    100%
+      box-shadow 0 0 30px 10px darkred
+
+@-webkit-keyframes plut0
+  0%
+    left -2%
+    top 40%
+  12.5%
+    left 5%
+    top 65%
+  25%
+    left 50%
+    top 90%
+  37.5%
+    left 90%
+    top 68%
+  50%
+    left 98%
+    top 40%
+  62.5%
+    left 80%
+    top 3%
+  75%
+    left 50%
+    top -8%
+  87.5%
+    left 5%
+    top 15%
+  100%
+    left -2%
+    top 40%
